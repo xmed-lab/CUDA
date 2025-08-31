@@ -94,12 +94,6 @@ ipython_config.py
 #   install all needed dependencies.
 #Pipfile.lock
 
-# UV
-#   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
-#   This is especially recommended for binary packages to ensure reproducibility, and is more
-#   commonly ignored for libraries.
-#uv.lock
-
 # poetry
 #   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
 #   This is especially recommended for binary packages to ensure reproducibility, and is more
@@ -167,8 +161,34 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# Ruff stuff:
-.ruff_cache/
 
-# PyPI configuration file
-.pypirc
+# jupyter notebook
+.ipynb_checkpoints/
+*.ipynb
+
+dann/
+dann-*/
+data/Waterbirds/waterbirds
+data/Waterbirds/waterbirds-*
+data/MNIST/mnist_m/*
+concept_test/
+waterbirds-*/
+m2mm-*/
+m2u-*/
+s2m-*/
+skincon-*/
+
+# *.csv
+*.mat
+*.bz2
+*.tar.gz
+*.zip
+data/MNIST/mnist_*/ 
+data/MNIST/MNIST/
+data/MNIST/image_list/
+data/MNIST/image_list.zip
+data/MNIST/mnist_image.tar.gz
+data/Skincon/fitz/
+
+wandb/
+
