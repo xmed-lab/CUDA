@@ -95,7 +95,9 @@ If you use this code in your research, please cite:
 ```bibtex
 @article{CUDA,
   title={Concept-Based Unsupervised Domain Adaptation},
-  author={Xu, Xinyue and Hu, Yueying and Tang, Hui and Qin, Yi and Mi, Lu and Wang, Hao and Li, Xiaomeng}
+  author={Xu, Xinyue and Hu, Yueying and Tang, Hui and Qin, Yi and Mi, Lu and Wang, Hao and Li, Xiaomeng},
+  journal={arXiv preprint arXiv:2505.05195},
+  year={2025}
 }
 ```
 
